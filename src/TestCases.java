@@ -10,7 +10,6 @@ public class TestCases <T> {
     }
 
     static <T extends Comparable<T>> void maxNumber(T num1, T num2, T num3) {
-
         T max = num1;
         if (num2.compareTo(max) > 0) {
             max = num2;
